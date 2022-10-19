@@ -44,8 +44,17 @@ public class MathUtil {
     }//tối ưu lại code, sửa code, fix code, refactoring code
 }
 
-//TỐI ƯU, CHỈNH SỬA LẠI CODE, NẾU CÓ SẴN BỌ TEST CASES VÀ VIẾT CODE
-//ĐỂ TỰ ĐỘNG HÓA QUÁ TRÌNH NÀY ĐÓ
+//KHI TA TỐI ƯU, CHỈNH SỬA LẠI CODE, 
+//NẾU CÓ SẴN BỌ TEST CASES VÀ VIẾT CODE
+//ĐỂ TỰ ĐỘNG HÓA QUÁ TRÌNH NÀY TRƯỚC ĐÓ
+//THÌ KHI BỊ SỬA, TA KO LO LẮNG NHIỀU VỀ VIỆC SỬA CÓ ỔN KHÔNG
+//TA CHỈ VIỆC CHẠY LẠI BỘ TEST CASES ĐÃ TỰ ĐỘNG HÓA TRƯỚC ĐÓ
+//NẾU XANH -> CHẤP NHẬN PHẦN CODE SỬA
+// ĐỎ       -> MÀY BỊ REJECT PHẦN SỬA, HOẶC ROLLBACK LẠI, HOẶC CHO XANH ĐI
+
+//VIỆC/HÀNH ĐỘNG TEST LẠI NHỮNG GÌ ĐÃ TỪNG TEST ĐỂ VERIFIED TÍNH
+//ĐÚNG SAI SAU QUÁ TRÌNH CAN THIỆP LẠI CODE ĐÃ ĐƯỢC VERIFIED TRƯỚC ĐÓ
+//HÀNH ĐỘNG TEST LẠI NÀY GỌI LÀ TEST HỒI QUY - REGRESION TESTING 
 
 //ĐỆ QUY RECURSION LẶP LẠI HÍNH MÌNH VỚI 1 QUY MÔ KHÁC
 //BÚP BÊ NGƯỜI NGA
