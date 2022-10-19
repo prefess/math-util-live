@@ -34,11 +34,20 @@ public class MathUtil {
         //xuống đến đây n=2..20 ồi
         //chơi for hoặc đệ quy - recursion
         //kỹ thuật nhồi con heo đất, ốc bu nhồi thịt
-        long product = 1; //tích khởi đầu = 1, nhồi 2 3 4 5 6 7 8 .. n 
-        for (int i = 2; i <= n; i++) {
-            //product = product*i;
-            product *= i;
-        }
-        return product;
-    }
+//        long product = 1; //tích khởi đầu = 1, nhồi 2 3 4 5 6 7 8 .. n 
+//        for (int i = 2; i <= n; i++) {
+//            //product = product*i;
+//            product *= i;
+//        }
+//        return product;
+        return n* getFactorial(n-1);
+    }//tối ưu lại code, sửa code, fix code, refactoring code
 }
+
+//TỐI ƯU, CHỈNH SỬA LẠI CODE, NẾU CÓ SẴN BỌ TEST CASES VÀ VIẾT CODE
+//ĐỂ TỰ ĐỘNG HÓA QUÁ TRÌNH NÀY ĐÓ
+
+//ĐỆ QUY RECURSION LẶP LẠI HÍNH MÌNH VỚI 1 QUY MÔ KHÁC
+//BÚP BÊ NGƯỜI NGA
+//N! 5! = 1.2.3.4.5
+//5! = 5 * 4!
